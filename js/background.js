@@ -60,6 +60,7 @@ function sanitizeURL(urlString) {
   }
   searchParams.delete('tag');
   searchParams.delete('ascsubtag');
+  searchParams.append('tag', 'gifhor0b-20');
   return {
     url: url.toString(),
     match
